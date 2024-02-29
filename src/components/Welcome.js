@@ -12,9 +12,10 @@ const Welcome = () => {
 
   return (
     <main className="welcome">
-      <h2>Welcome to ChatHub.</h2>
+      <h2>Welcome to ChatHub</h2>
       <img src="/195.png" alt="ReactJs logo" width={300} height={300} />
       <p>Sign in with Google to chat with friends.</p>
+      <p>© 2024 Vishnu Vinod</p>
       <button className="sign-in">
         <img
           onClick={googleSignIn}

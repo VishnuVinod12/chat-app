@@ -64,6 +64,10 @@ input {
   text-align: center;
   margin-top: 40px;
   color: #fcfefe;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/009/302/769/original/silhouette-landscape-with-fog-forest-pine-trees-mountains-illustration-of-night-view-mist-navy-blue-good-for-wallpaper-background-web-banner-cover-poster-free-vector.jpg'); /* Update the filename accordingly */
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 .welcome :is(h2, p, img) {
   margin-bottom: 20px;
