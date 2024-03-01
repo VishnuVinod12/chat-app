@@ -9,7 +9,7 @@ function App() {
   const [user] = useAuthState(auth);
 
   return (
-    <div className="App">
+    <div className="App" style={user?{backgroundImage:"none"}:{}}>
       <NavBar />
       {!user ? (
         <Welcome />

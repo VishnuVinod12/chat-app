@@ -13,9 +13,8 @@ const Welcome = () => {
   return (
     <main className="welcome">
       <h2>Welcome to ChatHub</h2>
-      <img src="/195.png" alt="ReactJs logo" width={300} height={300} />
+      <img src="/195.png" alt="ReactJs logo" width={270} height={270} />
       <p>Sign in with Google to chat with friends.</p>
-      <p>© 2024 Vishnu Vinod</p>
       <button className="sign-in">
         <img
           onClick={googleSignIn}
@@ -24,6 +23,7 @@ const Welcome = () => {
           type="button"
         />
       </button>
+      <p>© 2024 Vishnu Vinod</p>
     </main>
   );
 };
